@@ -1,0 +1,24 @@
+.main{
+    background-color: navy;
+    height: 400px;
+    width: 410px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.form{
+    object-position: 2px;
+    padding-top: 80px;
+    
+}
+input{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#text{
+    height: 16px;
+    width: 100px;
+}
