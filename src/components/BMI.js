@@ -40,11 +40,12 @@ function BMI() {
     }
   return (
     <div className='main'>
+        <h1>BMI_CALICULATOR</h1>
       <form className='form'>
         <input type='text' placeholder="weight in kgs" onChange={handelChange}></input><br></br>
         <input type='text' placeholder='height in cm' onChange={handelChange2}></input><br></br>
         {/* <button onClick={evalute}>try</button> */}
-        <input type='text' placeholder='submit' onClick={evalute} value={"for submit type s"} id='text'></input>
+        <input type='text' placeholder='submit' onClick={evalute} value={"submit"} id='text'></input>
         <button onClick={clear}>reset</button><br></br>
         </form>
         <input type='text' placeholder='result' value={result}></input>

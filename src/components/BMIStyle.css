@@ -1,5 +1,5 @@
 .main{
-    background-color: navy;
+    /* background-color: ; */
     height: 400px;
     width: 410px;
     margin: auto;
@@ -8,7 +8,7 @@
 }
 .form{
     object-position: 2px;
-    padding-top: 80px;
+    padding-top: 20px;
     
 }
 input{
@@ -20,5 +20,5 @@ button{
 }
 #text{
     height: 16px;
-    width: 100px;
+    width: 50px;
 }
